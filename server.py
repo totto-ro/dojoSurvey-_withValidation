@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, redirect, session
+from flask import Flask
+from survey_app import app
+from survey_app.controllers import surveys_controller
 
-app = Flask( __name__ )
-app.secret_key = "veryMuchSecret"
 
 if __name__ == "__main__":
     app.run( debug = True )

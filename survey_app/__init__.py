@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, session
 
 app = Flask(__name__)
-app.secret_key = "admin2593"
+app.secret_key = "verySecret"
